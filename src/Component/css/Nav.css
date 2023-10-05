@@ -1,0 +1,110 @@
+ .container {
+
+
+     height: 60px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     position: relative;
+     
+     color: rgb(243, 239, 239);
+     
+     margin-top: 2rem;
+
+ }
+
+ .title {
+     font-size: 2rem;
+      
+     font-weight: 900;
+
+ }
+
+ 
+
+  ul {
+     display: flex;
+     padding: 0;
+     font-size: 1.5rem;
+     font-weight: 500;
+     padding: 0 2rem;
+ }
+
+ li {
+     list-style: none;
+     margin: 0 2rem;
+      
+ }
+
+ a {
+     color: azure;
+     text-decoration: none;
+ } 
+
+
+ .sign {
+     width: 100px;
+     border-radius: 1px solid black;
+     font-size: 1.5rem;
+     font-weight: 500;
+ }
+
+
+ .body-container {
+
+     height: 600px;
+     width: 70vh;
+     
+     margin-left: 36rem;
+     margin-top: 8rem;
+     align-self: center;
+
+ } 
+
+ .t1 {
+
+     color: aliceblue;
+     font-size: 3rem;
+     font-weight: 500;
+     text-align: center;
+ }
+
+ .t2 {
+     margin: 3rem 0;
+    
+     text-align: center;
+
+
+ }
+
+ .t2>p {
+
+     font-size: 1.2rem;
+     color: aliceblue;
+ }
+
+  .t3 {
+     display: flex;
+     justify-content: center;
+ }
+
+ .icons {
+
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     gap: 40px;
+     font-size: 2.5rem;
+   
+ }
+ 
+  
+
+ .t3>div {
+     color: wheat;
+ }
+
+ .btn{
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 2rem;
+ } 

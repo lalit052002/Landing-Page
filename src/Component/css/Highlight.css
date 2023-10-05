@@ -1,0 +1,222 @@
+div{
+
+    color: white;
+   
+}
+
+.c1{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex ;
+    justify-content: center;
+}
+
+ .icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.icons-inside {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    font-size: 4rem;
+  
+
+} 
+
+
+.H{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top:4rem;
+}
+.h{
+    text-align: center;
+    color:blue;
+    font-size: 1.7rem;
+}
+.hm{
+    text-align: center;
+    color:wheat;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight:600 ;
+
+
+}
+.hh{
+    text-align: center;
+
+    color: rgb(181, 173, 163);
+}
+
+.list{
+    margin-top: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.i,.ii,.iii{
+    text-align: center;
+}
+
+.i{
+    font-size: 3.2rem;
+    color: greenyellow;
+}
+
+.ii{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+
+}
+
+.iii{
+    margin-top: 0.4rem;
+    color: rgb(181, 173, 163);
+}
+
+.box1{
+
+    margin: 5rem 27rem;
+    width: 110vh;
+    height: 400px;
+    background-color:rgb(50, 50, 50);
+    
+
+
+}
+
+.box-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.box-i{
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+}
+
+.box-ii{
+    /* text-align: center; */
+
+    margin-top: 3rem;
+}
+
+.b1{
+    color: aqua;
+    font-size:1.3rem ;
+    font-weight: 500;
+}
+.box-ii-1{
+    color: rgb(138, 138, 138);
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.box-ii-2{
+    font-size: 1.3rem;
+}
+
+
+.bx1{
+    display: flex;
+    justify-content: center;
+   margin-top: 4rem;
+}
+
+.bx2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    
+}
+
+.bx2-1,.bx2-2,.bx2-3,.bx2-4{
+    width: 400px;
+    height: 200px;
+    background-color: #ffdcdc;
+    border-radius: 20px;
+}
+
+.bx2-1{
+    padding:1rem 1.5rem;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.bx2-2{
+    padding:1rem 1.5rem;
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.bx2-3{
+    padding:1rem 1.5rem;
+    grid-column: 1/3;
+    grid-row: 3;
+}
+.bx2-4{
+    padding:1rem 1.5rem;
+    grid-column: 2/3;
+    grid-row: 4;
+}
+
+.bx2-1-1{
+    color:#146672;
+    text-align: end;
+    font-size: 1.3rem;
+    font-weight: 600;
+    /* margin-right: 2rem; */
+
+}
+
+.bx2-1-2{
+    text-align: end;
+    font-size: 1.1rem;
+    color: rgb(86, 87, 88);
+}
+
+.bx2-1-3{
+    /* width: 40px; */
+    text-align: end;
+    font-size: 1rem;
+    
+}
+.bx2-1-3 > button{
+    width: 100px;
+    color: black;
+}
+
+/* -------------another ------- */
+.bx2-2-1{
+    color:#146672;
+    text-align:start;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+
+.bx2-2-2{
+    text-align: start;
+    font-size: 1.1rem;
+    color: rgb(86, 87, 88);
+}
+
+.bx2-2-3{
+   
+    text-align: start;
+    font-size: 1rem;
+    
+}
+
+.bx2-2-3 > button{
+    width: 100px;
+    color: black;
+} 
